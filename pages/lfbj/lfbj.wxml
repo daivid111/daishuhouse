@@ -1,0 +1,29 @@
+<view class="weui-cells">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">客户名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="name" value="{{ form.name }}" class="weui-input" type="text" placeholder="请输入客户姓名" />
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">客户电话:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="tel" value="{{ form.tel }}" class="weui-input" type="tel" placeholder="请输入手机号" />
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">施工地址:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="address" value="{{ form.address }}" class="weui-input" type="tel" placeholder="请输入小区地址" />
+            </view>
+        </view>
+</view>
+<view class="button-sp-area" style='margin-top:30rpx;'>
+        <button class="weui-btn" type="warn" formType="submit" style="background-color:#f47530">马上报价</button>
+</view>

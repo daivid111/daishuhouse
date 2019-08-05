@@ -1,0 +1,29 @@
+/* pages/myzh/myzh.wxss */
+page{
+  height:100%;
+}
+.container {
+  height: 100%;
+  align-items: center;
+  /* justify-content: row;   */
+  background-color:#f6f6f6;
+} 
+
+.vd {
+    background-color:#fff;
+    width:100%;
+    display: flex;
+    justify-content :space-between;
+    font-size: 16px;
+}
+
+.vda{
+    margin-left: 25rpx;
+    line-height:100rpx;
+    display: flex;
+}
+.vdb{
+    margin-right: 25rpx;
+    line-height:100rpx;
+    display: flex;
+}

@@ -1,0 +1,25 @@
+/* pages/khzp/khzp.wxss */
+page{
+  height:100%;
+  background-color:#f6f6f6;
+}
+.wecv{
+  background-color:#fff;
+  
+  margin-top:25rpx;
+  width:100%;
+  display:flex;
+  justify-content:flex-start;
+}
+.wecvyi{
+  width:200rpx;
+  border:1px red solid;
+  height:100%;
+}
+
+.wecver{
+  width:750rpx;
+  /* border:1px red solid; */
+  height:100%;
+}
+

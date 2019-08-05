@@ -1,0 +1,3 @@
+<view class="search-container">
+  <input type="text" bindinput="searchInputEvent" placeholder="输入客户名称"></input><icon bindtap="searchClickEvent"  type="search" size="20"/>
+</view>

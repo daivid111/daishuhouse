@@ -1,0 +1,20 @@
+
+.list-msg2 {
+ height: 2.58823529em;
+ min-height: 2.58823529em;
+ line-height: 2.58823529em;
+ /* border:1px red solid; */
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ /* border: 1px solid #ccc; */
+ /* padding: 0 10rpx; */
+}
+
+.picker {
+  height: 2.57823529em;
+  min-height: 2.57823529em;
+  line-height: 2.57823529em;
+  width:100%;
+  /* background-color: orange; */
+}

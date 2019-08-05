@@ -1,0 +1,142 @@
+<form bindsubmit="submitForm">
+      <view class="weui-cells">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">客户名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="name" value="{{ form.name }}" class="weui-input" type="text" placeholder="请输入客户姓名" />
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">客户电话:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="tel" value="{{ form.tel }}" class="weui-input" type="tel" placeholder="请输入正确的手机号" />
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">小区名称:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="tel" value="{{ form.tel }}" class="weui-input" type="tel" placeholder="输入小区名称" />
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">所在地区:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <view class='list-msg2'>
+                  <picker class="picker" mode="region" value="{{regionValue}}" custom-item="{{custom}}" bindchange="regionChange">
+                    <view class="picker">
+                      {{regionValue}}
+                    </view>
+                  </picker>
+                </view>   
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_textarea">
+            <view class="weui-cell__hd">
+                <view class="weui-label">小区地址:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <textarea name="address" value="{{ form.address }}" class="weui-textarea" placeholder="请输入详细地址" style="height: 3.3em" />
+               
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">开始日期:</view>
+            </view>
+            <view class="weui-cell__bd">
+              <view class='list-msg2'>
+                  <picker class="picker" mode="date" value="{{dateValue}}" start="{{dateStart}}" end="{{dateEnd}}" bindchange="dateChange">
+                    <view class="picker">
+                      {{dateValue}}
+                    </view>
+                  </picker>
+                </view>   
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">合同编号:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="tel" value="{{ form.tel }}" class="weui-input" type="tel" placeholder="确认保存后不可更改" />
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">装修风格:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <view class='list-msg2'>
+                  <picker class="picker" mode="selector" range="{{objectArrayyi}}" range-key="name" value="{{indexyi}}" bindchange="bindChangeyi">
+                    <view class="picker">
+                      {{objectArrayyi[indexyi].name}}
+                    </view>
+                  </picker>
+                </view>                
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">装修户型:</view>
+            </view>
+            <view class="weui-cell__bd">
+            <view class='list-msg2'>
+                <picker class="picker" mode="selector" range="{{objectArrayer}}" range-key="name" value="{{indexer}}" bindchange="bindChangeer">
+                    <view class="picker">
+                      {{objectArrayer[indexer].name}}
+                    </view>
+                </picker>
+            </view>
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">装修类型:</view>
+            </view>
+            <view class="weui-cell__bd">
+           <view class='list-msg2'>
+                <picker class="picker" mode="selector" range="{{objectArraysan}}" range-key="name" value="{{indexsan}}" bindchange="bindChangesan">
+                    <view class="picker">
+                      {{objectArraysan[indexsan].name}}
+                    </view>
+                </picker>
+            </view>
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">装修面积:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="tel" value="{{ form.tel }}" class="weui-input" type="tel" placeholder="0" />
+            </view>
+            ㎡
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">装修造价:</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input name="tel" value="{{ form.tel }}" class="weui-input" type="tel" placeholder="0" />
+            </view>
+            万元
+        </view>
+    </view>
+        <view class="weui-cells" style='margin-top:30rpx;' bindtap="zhuijia">
+            
+            <view style='text-align:center; line-height: 2.57823529em;color:#f47530;'>
+                添加指派人员                
+            </view>
+        </view>
+    <view class="button-sp-area" style='margin-top:30rpx;'>
+        <button class="weui-btn" type="warn" formType="submit" style="background-color:#f47530">确定保存</button>
+    </view>
+</form>

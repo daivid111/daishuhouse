@@ -1,0 +1,22 @@
+<view class = "wecv">
+
+<!-- <view class = "wecvyi"></view> -->
+<view class = "wecver">
+      <view class="weui-cell weui-cell_input" style='border-bottom:1px red eeeeee;line-height:100rpx;' >
+                  <view class="weui-cell__hd">
+                      <view class="weui-label">职位:</view>
+                  </view>
+                  <view class="weui-cell__bd">
+
+                  </view>
+      </view>
+      <view class="weui-cell weui-cell_input" style='border-bottom:1px red eeeeee;line-height:100rpx;'>
+                  <view class="weui-cell__hd">
+                      <view class="weui-label">姓名:</view>
+                  </view>
+                  <view class="weui-cell__bd">
+                   
+                  </view>
+      </view>
+    </view>
+</view>

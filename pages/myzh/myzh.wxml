@@ -1,0 +1,21 @@
+<view class="container">
+<view>
+  <view class = "vd">
+  <view class = 'vda'>手机号</view>
+
+  <view class = 'vdb'>12321</view>
+  </view>
+
+  <view class="weui-cells" style='margin-top:30rpx;width:700rpx;'>
+            
+      <view style='text-align:center; line-height: 2.57823529em;color:#f47530;'>
+                退出登录                
+      </view>
+
+  </view>
+
+
+</view>
+
+
+</view>

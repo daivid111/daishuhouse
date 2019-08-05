@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",        
+    "pages/sykh/sykh",
+    "pages/lfbj/lfbj",
+    "pages/khlr/khlr",
+    "pages/gz/gz",
+    "pages/khgz/khgz",
+    "pages/khzp/khzp",    
+    "pages/my/my",
+    "pages/myzh/myzh",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "顶装修",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/index/icon-index-a.png",
+        "iconPath": "images/index/icon-index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "images/index/icon-me-a.png",
+        "iconPath": "images/index/icon-me.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

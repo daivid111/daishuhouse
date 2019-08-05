@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon user-avatar" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user-info">
+        <text class="user-info-text">{{userInfo.nickName}}名字</text>
+        <text class="user-info-text user-info-uid">City: {{userInfo.city}}</text>
+      </view>
+      <view style='margin-right:20rpx;'>已认证</view>
+      <!-- <image class="wx-cell-arrow" src="../../assets/images1/right-gray.png"></image> -->
+    </view>
+  </view>
+  <view class="wx-cells">
+    <view class="wx-cell" data-route="../myzh/myzh" bindtap="navToPage">
+      <image class="wx-cell-icon" src="../../assets/images1/feedback.png"></image>
+      <text class="wx-cell-text">账号与安全</text>
+      <image class="wx-cell-arrow" src="../../assets/images1/right-gray.png"></image>
+    </view>
+  </view>
+  <view class="wx-cellsc">
+    <view class="wx-cell">
+      <image class="wx-cell-icon" src="../../assets/images1/language.png"></image>
+      <text class="wx-cell-text">意见与反馈</text>
+      <image class="wx-cell-arrow" src="../../assets/images1/right-gray.png"></image>
+    </view>
+  </view>
+  
+</view>
